@@ -11,14 +11,14 @@ module.exports = {
     extensions: ['', '.js', '.jsx', '.json']
   },
   stats: {
-    colors: true, 
-    reasons: true, 
+    colors: true,
+    reasons: true,
     chunks: false
   },
   module: {
     loaders: [
       {
-        test: /\.jsx?$/, 
+        test: /\.jsx?$/,
         loader: 'babel-loader'
       }
     ]
